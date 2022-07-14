@@ -26,10 +26,10 @@ public class GenerateBooksListAndMap {
         System.out.println("___________________________________________");
         System.out.println(getBookStorageMap().keySet());
         System.out.println("___________________________________________");
-        System.out.println("Enter the author`s name to see a list of available books by that author: ");
     }
 
     public static void start (){
+        System.out.println("Enter the author`s name to see a list of available books by that author: ");
         Scanner sc = new Scanner(System.in);
         String authorName = sc.nextLine();
         sc.close();
